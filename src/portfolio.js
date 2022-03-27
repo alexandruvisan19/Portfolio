@@ -8,7 +8,7 @@ const about = {
   role: "Front End Developer",
   description:
     "I love working on web projects and creating beautiful user interfaces. I strive to create an intuitive and enjoyable experience for users, while also keeping the code clean and organized. I'm currently focusing on front-end development, and love using new technologies and frameworks to create interactive websites. When I'm not coding, I like to spend time with my family and friends.",
-  resume: "/public/resume.pdf",
+  resume: "file:///public/resume.pdf",
   social: {
     linkedin: "https://www.linkedin.com/in/visan-alexandru/",
     github: "https://github.com/alexandruvisan19",
