@@ -3,6 +3,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { SiCodewars } from "react-icons/si";
 import { about } from "../../portfolio";
+import Pdf from "../resume/resume.pdf";
 import "./About.css";
 
 const About = () => {
@@ -21,7 +22,7 @@ const About = () => {
 
       <div className="about__contact center">
         {resume && (
-          <a href={resume}>
+          <a href={Pdf} target="_blank" rel="noreferrer">
             <span type="button" className="btn btn--outline">
               Resume
             </span>
