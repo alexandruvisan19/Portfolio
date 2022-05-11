@@ -21,12 +21,12 @@ const projects = [
     name: "Affiliate Website",
     description:
       "Website built for the purpose of ranking on Google through SEO.",
-    stack: ["React", "NextJs", "GraphQL", "SASS", "Wordpress"],
+    stack: ["NextJs", "GraphQL", "SASS", "Wordpress"],
     sourceCode: "https://github.com/alexandruvisan19/thecrittercove-cms-nextjs",
     livePreview: "https://www.thecrittercove.com/",
   },
   {
-    name: "React Excel Table Formatter",
+    name: "Excel Table Formatter",
     description:
       "A tool built using react to be able to format a table in a specific way.",
     stack: ["React", "Firebase", "XLSX"],
@@ -35,10 +35,11 @@ const projects = [
     livePreview: "https://table-formatter.web.app/",
   },
   {
-    name: "Some Practice Apps",
-    description: "Some apps I've built while I was learning React",
-    stack: ["React", "CSS Modules", "JavaScript"],
-    sourceCode: "https://github.com/alexandruvisan19/react-projects",
+    name: "Bug Tracker",
+    description: "A tool that can keep track of different issues using CRUD",
+    stack: ["React", "Firebase", "React Router"],
+    sourceCode: "https://github.com/alexandruvisan19/bug-tracker",
+    livePreview: "https://boisterous-tarsier-2238e7.netlify.app/",
   },
 ];
 
